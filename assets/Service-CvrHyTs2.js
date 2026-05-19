@@ -1,0 +1,1 @@
+import{n as e,t}from"./index-AvNUNU5-.js";e();var n=t(),r=()=>(0,n.jsx)(`div`,{children:`Service`});export{r as default};
