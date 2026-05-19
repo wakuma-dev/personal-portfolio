@@ -11,7 +11,7 @@ const NavMenu = memo(function NavMenu(){
                     return (
                       <li key={item.path}>
                       <NavLink to={item.path}
-                        className= {({isActive}) => `relative after:absolute after:-bottom-1 after:left-0 after:h-[1px]
+                        className= {({isActive}) => `capitalize text-[16px] leading-[18px] relative after:absolute after:-bottom-1 after:left-0 after:h-[1px]
                          after:bg-[#800020] after:w-0 after:transition-all after:duration-150 hover:after:w-full
                          transition-all duration-150 ${theme === "light" ? "text-black" : "text-white"}
                          ${isActive ? "text-[#800020]" : "" }`}>

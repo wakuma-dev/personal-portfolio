@@ -20,7 +20,7 @@ export default function MainLayout() {
   return (
     <>
       <Navbar isScrolled={isScrolled} />
-      <main>
+      <main className="pt-14">
         <Outlet />
       </main>
     </>

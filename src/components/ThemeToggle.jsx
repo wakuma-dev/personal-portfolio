@@ -5,7 +5,7 @@ import { FiSun } from "react-icons/fi";
 export default function ThemeToggle(){
     const {theme, toggleTheme} = useThemeStore();
     return(
-    <button onClick={toggleTheme}>
+    <button onClick={toggleTheme} className="cursor-pointer">
      {theme === "light" ? <FaRegMoon /> : <FiSun />}
     </button>
     );
