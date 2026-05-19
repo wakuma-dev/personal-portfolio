@@ -1,6 +1,6 @@
 import React, {memo} from 'react';
 import ThemeToggle from '../../ThemeToggle';
-import useThemeStore from '../../../store/useThemeStore';
+import useThemeStore from '../../../app/store/useThemeStore';
 const Navbar = memo(function Navbar({isScrolled}){
     const { theme } = useThemeStore();
     return(
